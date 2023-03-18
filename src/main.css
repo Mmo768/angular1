@@ -1,0 +1,222 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: inline-block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.fw-400{
+    font-weight: 400 !important;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fs-h{
+    font-size: calc(1.525rem + 3.3vw) !important;
+}
+.fs-16{
+    font-size: 1rem;
+}
+.fs-20{
+    font-size: 1.25rem;
+}
+.fs-25{
+    font-size: 1.5625rem;
+}
+.fs-30{
+    font-size: 1.875rem;
+}
+.fs-35{
+    font-size: 2.1875rem;
+}
+.text-main{
+    color: #20c997 !important;
+}
+.text-p{
+    color: #4c4d4d !important;
+}
+.bg-main{
+    background-color: #20c997 !important;
+}
+.border-main{
+    border-color: #20c997 !important;
+}
+.fit-content{
+    width: fit-content;
+}
+.lh-20{
+    line-height: 20px;
+}
+.lh-25{
+    line-height: 25px;
+}
+.lh-30{
+    line-height: 30px;
+}
+
+/* ========= start navbar ========= */
+.navbar-brand{
+    width: 150px;
+}
+nav .nav-link{
+    padding: 8px;
+    color: white !important;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-link{
+    cursor: pointer !important;
+}
+nav .nav-link:hover{
+    color: #20c997 !important;
+}
+nav.navbar-dark .navbar-nav .nav-link.active, nav.navbar-dark .navbar-nav .show>.nav-link{
+    background-color: unset;
+    color: #20c997 !important;
+}
+
+
+/* ========= end navbar ========= */
+/* ========= start header ========= */
+header{
+    background: url("./assets/img/intro-bg.jpg") center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgb(0 0 0 /.6);
+}
+.h-70{
+    height: 70px;
+}
+header span a i{
+    animation: hup .7s linear 0s infinite normal;
+}
+header .content a{
+    transition: .3s 0s all linear;
+}
+header .content a:hover{
+    background-color: #20c997;
+    color: white !important;
+}
+@keyframes hup {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+/* ========= end header ========= */
+
+/* ========= start about ========= */
+.text-item h2{
+    font-size: calc(1.95rem + 8.4vw) !important;
+    opacity: .4;
+    color: #dee3e4;
+}
+.text-item span{
+    margin-top: -25px;
+    width: 100px;
+    height: 3px;
+}
+/* ========= end about ========= */
+
+/* ========= start services ========= */
+.services .box .icon{
+    width: 70px;
+    height: 70px;
+}
+.services .box p{
+    line-height: 30px;
+}
+/* ========= end services ========= */
+
+/* ========= start resume ========= */
+.h-10{
+    height: 10px;
+}
+.resume .box-bar1 p,
+.resume .box-bar2 p{
+    margin: 0;
+}
+.resume .box-bar1 :nth-child(2) span{
+    width: 65%;
+}
+.resume .box-bar1 :nth-child(4) span{
+    width: 95%;
+}
+.resume .box-bar1 :nth-child(6) span{
+    width: 80%;
+}
+.resume .box-bar2 :nth-child(2) span{
+    width: 70%;
+}
+.resume .box-bar2 :nth-child(4) span{
+    width: 60%;
+}
+.resume .box-bar2 :nth-child(6) span{
+    width: 99%;
+}
+.m-12{
+    margin-bottom: -12px;
+}
+/* ========= end resume ========= */
+
+/* ========= start portfolio ========= */
+.layer-gallery{
+    background-color: rgb(0 0 0 /.6);
+    opacity: 0;
+    transition: .3s 0s all linear;
+}
+.layer-gallery:hover{
+    opacity: 1;
+}
+@media (min-width:768px) and (max-width:992px) {
+    .m-150{
+        margin-top: -150px;
+    }
+}
+.portfolio .nav-link{
+    color: black !important;
+}
+.portfolio .nav-pills .nav-link.active, .portfolio .nav-pills .show>.nav-link{
+    background-color: unset;
+    color: #20c997 !important;
+    border-bottom: 2px solid #20c997;
+    border-radius: unset;
+}
+/* ========= end portfolio ========= */
+
+/* ========= start test ========= */
+.test .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #20c997;
+}
+.test .box{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ========= end test ========= */
+
+/* ========= start contact ========= */
+textarea{
+    height: 150px;
+}
+input[class="form-control"]{
+    border-color: #20c997 !important;
+}
+/* ========= end contact ========= */
